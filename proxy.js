@@ -6,4 +6,8 @@
   }else{
     this.name = factory();
   }
-}('touchproxysk');
+}('touchproxysk',function(){
+  
+  
+  
+});
