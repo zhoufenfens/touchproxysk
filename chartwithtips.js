@@ -21,7 +21,7 @@ path.attr({
 });
 var set = paper.set();
 var label = paper.set();
-label.push(paper.text(60,12,'猜对').attr({'stroke':'white'}));
+label.push(paper.text(60,12,'猜对').attr({'stroke':'white','font-family':'arial'}));
 label.hide();
         var frame = paper.popup(480, 15, label, "left").attr({fill: "#000", stroke: "#666", "stroke-width": 2, "fill-opacity":0.7}).hide();
 var length = coordinateArr.length;
@@ -53,8 +53,7 @@ $.each(coordinateArr,function(index,item){
           this.attr({
             'fill':"#ec2438",
             'r':7
-          }
-        );
+          });
       },
       function(){
           this.attr({
