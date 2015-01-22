@@ -1,6 +1,6 @@
 function SuppedArray() {}
  
-SuppedArray.prototype = new Array;
+SuppedArray.prototype = [];
 SuppedArray.prototype.forEach = function (fun) {
   var len = this.length;
   while (len--) {
